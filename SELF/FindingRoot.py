@@ -1,0 +1,10 @@
+from math import sqrt
+b=int(input("Enter the b"))
+c=int(input("Enter the c"))
+a=int(input("Enter the a"))
+i=(b**2)-(4*a*c)
+print(i)
+i=sqrt(i)
+xone=i/(2*a)
+xtwo=-i-b/(2*a)
+print("The Quadratic roots of x is",xone,"or",xtwo)
